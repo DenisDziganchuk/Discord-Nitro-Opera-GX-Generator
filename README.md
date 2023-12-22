@@ -19,4 +19,4 @@ To run the project, just type
 
     $ python3 main.py
 
-Then, type the number of codes to be generated when prompted. Now sit back and relax!
+Then, type the number of codes to be generated and the number of threads to run when prompted. Now sit back and relax!
