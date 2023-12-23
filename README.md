@@ -1,6 +1,11 @@
 # Discord Nitro Opera GX Generator
 A Discord Nitro promo generator, built on Python, that exploits the OperaGX × Discord Nitro partnership.
 
+## Features
+- Multi-threaded promocode generation
+- Doesn't require the use of proxies
+- Advanced and fast generation
+
 ## Requirements
 
 - Python3
