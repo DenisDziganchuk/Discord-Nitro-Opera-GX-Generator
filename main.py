@@ -77,7 +77,7 @@ def main():
     for i in range(num_requests):
         with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
             futures = {executor.submit(generate_code(i, num_requests)): i for i in range(num_threads)}
-            concurrengit.futures.wait(futures)
+            concurrent.futures.wait(futures)
 
 if __name__ == "__main__":
     try:
